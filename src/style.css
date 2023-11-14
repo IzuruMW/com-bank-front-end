@@ -1,0 +1,75 @@
+.carousel-inner img {
+  height: 100px;
+}
+
+.carousel-indicators {
+  background-color: blueviolet;
+  height: auto;
+}
+
+/* icons */
+.secondary-menu-container .material-symbols-outlined {
+  font-size: 42px;
+  color: rgb(152, 152, 163);
+
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" -25, "opsz" 48;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" -25, "opsz" 48;
+}
+
+.gx-5 col span {
+  width: 200px;
+}
+
+.secondary-menu-container {
+  background-color: rgba(244, 244, 244, 0.579);
+}
+.infoMenu-frame .material-symbols-outlined {
+  display: block;
+}
+/* .infoMenu-frame .row{
+  display: flex;
+  justify-content:space-between;
+ */
+
+/* }
+.infoMenu-frame .col {
+  
+ margin: 30px;
+ padding: 60px;
+
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  border-width: 5ps;
+  border-style: calc();
+  background-color: azure;
+  color: rgb(14, 105, 161);
+ 
+}
+
+.infoMenu-frame button{
+ 
+    
+}*/
+.infoMenu-frame div {
+  margin: 25px;
+  text-align: center;
+}
+
+.infoMenu-frame .material-symbols-outlined {
+  font-size: 60px;
+  font-weight: lighter;
+  color: blue;
+}
+.infoMenu-slide div {
+  box-shadow: 0 2px 2px 2px rgba(169, 168, 168, 0.2);
+}
+.infoMenu-slide svg {
+  display: none;
+}
+#div2,#div3,#div4,#div5{
+  display: none;
+}
