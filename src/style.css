@@ -1,8 +1,8 @@
-.carousel-inner img {
+.inner1 img {
   height: 100px;
 }
 
-.carousel-indicators {
+.indicator1{
   background-color: blueviolet;
   height: auto;
 }
@@ -72,4 +72,46 @@
 }
 #div2,#div3,#div4,#div5{
   display: none;
+}
+#beYourOwnBank{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+ 
+}
+#carouselDiscount img{
+height: 300px;
+}
+.indicator2 > li{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.inner2 img{
+  height: 312px;
+  width: 100%;
+}
+
+.comBankApp .mobileImage {
+height: 100px;
+}
+.mobApp{
+  display: flex;
+  
+}
+.comLogo{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+
+}
+.comLogo figcaption{
+  padding-left: 10px;
+}
+.container-comLogo{
+  
+margin-left: 100px;
+padding-right: 50px;
+
 }
