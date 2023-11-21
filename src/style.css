@@ -1,3 +1,9 @@
+a{
+  text-decoration: none;
+  list-style: none;
+}
+
+
 .inner1 img {
   height: 100px;
 }
@@ -7,34 +13,54 @@
   height: auto;
 }
 
-/* icons */
-.secondary-menu-container .material-symbols-outlined {
-  font-size: 42px;
-  color: rgb(152, 152, 163);
 
-  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" -25, "opsz" 48;
-}
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" -25, "opsz" 48;
-}
 
-.gx-5 col span {
-  width: 200px;
+.secondary-menu-container svg {
+  width: 36px;
 }
 
 .secondary-menu-container {
   background-color: rgba(244, 244, 244, 0.579);
+margin-top: 100px;
+  
+  
 }
+.secondary-menu-container .p-1{
+  margin: 36px;
+  color: #5d6267;
+
+}
+.secondary-menu-container col:hover{
+  color: red;
+  stroke: #a91d1d;
+}
+
+/* //////////////////////////////////// */
+
+.infoMenu-frame{
+  margin: 54px 0 12px 0;
+}
+
 .infoMenu-frame .material-symbols-outlined {
   display: block;
 }
-/* .infoMenu-frame .row{
+.infoMenu-frame .row{
   display: flex;
   justify-content:space-between;
- */
 
-/* }
-.infoMenu-frame .col {
+
+}
+.infoMenu-frame .col1 svg{
+     color: rgb(248, 4, 4);
+            
+}
+
+.infoMenu-frame .col1:hover{
+background-color: aqua;
+}
+
+
+/* .infoMenu-frame .col {
   
  margin: 30px;
  padding: 60px;
@@ -48,15 +74,23 @@
   background-color: azure;
   color: rgb(14, 105, 161);
  
-}
+} */
 
-.infoMenu-frame button{
+/* .infoMenu-frame .infoMenu-col1:hover, .material-symbols-outlined1 :hover{
+  color: rgb(112, 15, 15);
+  border: #4e78b7;
+  background-color: #fafcff;
  
     
-}*/
+} */
+enter-class:hover{
+  background-color: rgb(255, 34, 0);
+
+}
 .infoMenu-frame div {
-  margin: 25px;
+  margin: 0px;
   text-align: center;
+  border: #0862ea;
 }
 
 .infoMenu-frame .material-symbols-outlined {
@@ -87,17 +121,57 @@ height: 300px;
   width: 30px;
   height: 30px;
 }
+.inner2{
+  margin: 36px 0;
+}
 .inner2 img{
+ 
   height: 312px;
   width: 100%;
 }
-
+.comBankApp{
+  margin: 54px 0;
+}
+.comBankApp h3{
+ position: relative;
+ justify-content: center;
+ text-align: center;
+  
+ color: black;
+  margin: 54px 0;
+  font-size:36px;
+}
+.caro-apps{
+  position: relative;
+  left: 10%;
+}
 .comBankApp .mobileImage {
-height: 100px;
+
 }
 .mobApp{
   display: flex;
+  margin-left: 100px;
   
+}
+.comBankAppDes{
+  width: 400px;
+  margin-left: 0px;
+}
+.comBankAppDes h3{
+margin: 24px 0 0 0;
+justify-content: start;
+text-align: start;
+font-size: 24px;
+}
+.comBankAppDes p{
+margin-top: 12px;
+
+}
+.comBankAppDes button{
+  background-color: rgb(255, 227, 45);
+  border: none;
+  color: black;
+  padding: 14px 16px;
 }
 .comLogo{
   display: flex;
@@ -114,4 +188,855 @@ height: 100px;
 margin-left: 100px;
 padding-right: 50px;
 
+}
+.commonBtn1{
+  padding: 6px 26px 10px 26px;
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.commonBtn2{
+  padding: 6px 26px 10px 26px;
+  background-color: rgb(255, 227, 45);
+  font-size: 14px;
+}
+
+.little-arrow {
+  display: inline-block;
+  padding-left:3px ;
+  font-size:medium;    
+
+  color: rgba(0, 0, 0, 0.7);
+  transform: translateY(9%); 
+}
+.reUse button{
+  background-color: rgb(255, 227, 45);
+  padding: 14px 40px;
+  
+}
+
+.youVideo{
+  margin: 54px 0;
+}
+
+
+      
+footer{
+width: 100%;
+bottom: 0;
+left: 0;
+}
+
+.footSocialImg ul{
+display: flex;
+justify-content: center;
+
+}
+.footSocialImg li{
+color: white;
+width: 50px;
+
+height: 50px;
+list-style: none;
+}
+.content  li i{
+font-size: 24px;
+color: white;
+} 
+
+
+footer .content{
+max-width:100%;
+margin: auto;
+padding: 30px 40px 40px 30px;
+background: #082d57;
+}
+
+footer .content .link-boxes{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+footer .content .link-boxes .box{
+width: calc(100% / 5 - 10px);
+}
+.content .link-boxes .box .link_name{
+color: #fff;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 10px;
+position: relative;
+}
+
+.content .link-boxes .box li{
+margin: 6px 0;
+list-style: none;
+}
+.content .link-boxes .box li a{
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+text-decoration: none;
+opacity: 0.8;
+transition: all 0.4s ease;
+
+}
+.content .link-boxes .box li a:hover{
+opacity: 1;
+
+}
+
+
+
+
+.copyrightFooter{
+display: flex;
+background-color: rgb(8, 17, 36);
+padding: 20px 0;
+
+text-align: center;
+justify-content: center;
+}
+.copyRight{
+text-decoration: none;
+list-style: none;
+
+
+}
+.copyRight h6{
+color: white;
+
+}
+.copyRight p{
+color: #5d6267;
+padding: 0;
+margin: 0;
+}
+.copyRight a{
+text-decoration: none;
+list-style: none;
+color: #aab5be;
+
+}
+.copyRight ul{
+display: flex;
+text-align: center;
+justify-content: center;
+
+
+}
+.copyRight ul li{
+list-style: none;
+text-decoration: none;
+color: #5d6267;
+
+
+}
+.li-1, .li-2{
+border-right: thin solid  #5d6267;
+padding:0 20px;
+}
+.li-1 a, .li-2 a, .li-3 a{
+padding:0 20px;
+text-decoration: none;
+list-style: none;
+color: #5d6267;
+}
+
+.footAward{
+  display: flex;
+  padding-left: 50px;
+ 
+  
+  
+
+}
+.footAward img{
+width: 120px;
+height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newslet .arrowBtn{
+
+  display:flex;
+  position: relative;
+  justify-content: end;
+  right: 20px;
+  margin-top:0;
+ 
+
+}
+.caroNews{
+
+}
+.newslet{
+  padding: 10px; 
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+
+  
+  border-color: rgb(227, 227, 227);
+ 
+  
+  justify-content: start;
+}
+.newsSec{
+  background-color:  rgba(227, 227, 227, 0.612);
+  padding: 56px 0;
+  
+}
+ .newsSec .reUse{
+ margin: 20px 0;
+ /* text-align: center; */
+}
+.newslet .reUse {
+  text-align: center;
+}
+.newslet h4{
+  padding: 8px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.arrowBtn span{
+  color: rgb(174, 179, 179);
+}
+.cards-wrapper .card img{
+  height: 250px;
+  
+}
+.cards-wrapper .card .card-text{
+  font-size: 14px;
+
+}
+.cards-wrapper .card .card-title{
+  font-size: 18px;
+}
+.cards-wrapper .card{
+  height: 400px;
+  border: none;
+  
+}
+hr .classhr{
+ 
+
+  
+}
+.card-body{
+  text-align: start;
+  height: 200px !important;
+ 
+}
+.helpDesk{
+  padding: 54px 0;
+  text-align: center;
+}
+.helpDesk p{
+  padding-top: 12px;
+
+}
+.helpDesk h2{
+  font-size: 40px;
+}
+.helpDEsk-row{
+  justify-content: center;
+  display: flex;
+  position: relative;
+
+
+}
+.helpDEsk-row .col-4{
+  justify-content: center;
+  padding-bottom: 54px;
+
+}
+.helpDEsk-row a{
+  text-decoration: underline;
+  color: rgb(25, 94, 150);
+
+}
+.helpDEsk-row i, .material-symbols-outlined {
+  font-size: 36px;
+}
+.text-start p{
+  font-weight: bold;
+}
+.callcenter{
+
+}
+.callcenter img{
+  width: 200px;
+  
+  
+}
+.callcenter:hover{
+  cursor: pointer;
+  .girl2{
+    display: block;
+  }
+  .girl1{
+    display: none;
+   
+  }
+
+}
+ .girl2{
+  display: none;
+
+}
+.pulse-button {
+	margin: 15px auto;
+	cursor: pointer;
+	border-radius: 100px;
+	padding: 14px 18px;
+	border: 1px solid #0862ea;	
+  position: fixed;
+  right: 20px;
+  top: 100px;
+	}
+  .pulse-button i{
+    color: #0862ea;
+  }
+
+/* Initiate Auto-Pulse animations */
+.pulse-button {
+	animation: borderPulse 1500ms infinite ease-out, colorShift 10000ms infinite ease-in;
+}
+@keyframes borderPulse {
+  0% {
+    box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255,.4), 0px 0px 0px 0px rgba(255,255,255,1);
+  }
+  100% {
+    box-shadow: inset 0px 0px 0px 0px rgba(117, 117, 255,.2), 0px 0px 0px 10px rgba(255,255,255,0);
+  }
+}
+#carouselIndicators2 .btn{
+top: 100px;
+left: 100px;
+
+
+}
+
+
+
+
+.personalBanking{
+  color: #0862ea;
+  padding-top: 74px;
+  
+}
+
+.applyFor{
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+.applyFor h2{
+  /* padding-right: 20px; */
+}
+.applyFor .centerDD{
+  margin: 14px 20px;
+}
+
+.centerDD button{
+  border: 2px solid rgb(68, 72, 77);
+  border-radius: 50px;
+  background-color: aliceblue;
+  width: 240px;
+  height: 48px;
+
+}
+.whiteSheet{
+  width: 240px;
+  height:auto;
+
+}
+
+/* ////////////////beYourOwnBank */
+.beYourOwnBank{
+  padding-top: 54px;
+}
+
+#beYourOwnBank{
+  padding: 24px 0;
+}
+#beYourOwnBank button{
+margin: 14px 10px;
+height: 44px;
+font
+}
+
+
+.div1 img{
+ margin-left: 100px;
+  
+
+ 
+}
+.div1-service{
+  /* padding-left: 24px; */
+  font-size: 14px;
+  margin: 0;
+  padding: 0; 
+ 
+ 
+}
+.nav-tab1{
+  width: 530px;
+}
+.nav-tab1 .nav-item a{
+  color: #5d6267;
+}
+.nav-tab1 .nav-item{
+  border: 3px solid transparent;
+ 
+ 
+}
+.nav-tab1 .nav-item1:hover{
+  
+  border-bottom: 3px solid yellow;
+  background-color: transparent;
+  
+}
+.nav-tab1 .nav-item2:hover{
+  
+  border-bottom: 3px solid yellow;
+  background-color: transparent;
+}
+.nav-tab1 .nav-item3:hover{
+  
+  border-bottom: 3px solid yellow;
+  background-color: transparent;
+
+}
+
+#tab-content{
+  margin:16px auto;
+  font-size: 12px;
+}
+.tab-content1{
+  margin-top: 20px;
+}
+.div1-service{
+  padding-left: 20px;
+}
+.div1-service h3{
+  padding-top: px;
+  font-size: 24px;
+}
+.div1-service p{
+  margin: 36px 0;
+}
+.div1-service button{
+  margin: 10px 10px 36px 0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
+.div1-service ul li{
+  border-bottom: 2px solid rgb(255, 227, 45);
+}
+.btn-tellMeMore{
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 6px 26px 10px 26px;
+
+}
+
+
+.btn-ApplyNow{
+  background-color: rgb(255, 227, 45);
+  padding: 6px 26px 10px 26px;
+}
+
+/* .romImg1{
+  background-color: #245708;
+} */
+
+
+/* .btn-pref .btn {
+  -webkit-border-radius:0 !important;
+} */
+.btntrangle::before
+{
+content: " ";
+position: absolute;
+top: 100%;
+left: calc(60% - 25px);
+height: 0;
+width: 0;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+border-top: 8px solid   #1d70a9;
+margin: 0;
+
+}
+
+
+.btn-group button{
+  border-radius: 10px;
+
+ 
+}
+.btn-group svg{
+color:  #1d70a9;
+stroke-width:1px;
+width: 54px;
+
+}
+
+.btn-group button:hover{
+color: white;
+background-color:  #1d70a9;
+border-radius: 10px;
+}
+
+.text-ro{
+  color: #1d70a9;
+  
+}
+
+
+
+.tab{
+display: flex;
+}
+.tab-content1{
+  background-color: #f8f8f8;
+  position: relative;
+  right: 0;
+
+}
+.tab-content1 img{
+  height: 340px;
+  width: 462px;
+  padding: 0;
+ 
+}
+
+#tab1{
+  margin: 0;
+}
+.btnGroup1{
+padding-top: 40px;
+}
+.btnGroup1 button{
+
+ padding: 24px 0px;
+ margin: 0 60px; 
+ width: 160px;
+ border:0;
+ outline: none; 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+.btnGroup1 .material-symbols-outlined{
+  font-size: 36px;
+
+}
+
+#saving{
+ margin-left: 0px;
+}
+.btn-group button:focus{
+  outline: none !important;
+ 
+
+}
+
+
+.btn-myCol{
+color: white;
+background-color:  #a91d1d;
+
+}
+/* ////////////////// second carousel*/
+
+.secondCaro .carousel-indicators{
+  margin: 40px 200px 0 -320px;
+}
+.secondCaro .carousel-indicators button{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+position: relative;
+bottom: 0;
+margin: 2px;
+
+}
+
+.secondCaro .carousel-item1 .commonBtn1{
+position: absolute;
+top: 70%;
+left: 66%;
+background-color: transparent;
+color: white;
+border:2px solid white;
+}
+.secondCaro .commonBtn1 i{
+  color: white;
+}
+
+.secondCaro .carousel-item1 .commonBtn2{
+position: absolute;
+top: 70%;
+left: 79%;
+background-color: white;
+color: rgb(0, 0, 0);
+border:2px solid white;
+
+}
+.secondCaro .carousel-item2 .commonBtn1{
+  position: absolute;
+  top: 52%;
+  left: 65%;
+  background-color: transparent;
+  color: white;
+  border:2px solid white;
+  } 
+  
+  .secondCaro .carousel-item2 .commonBtn2{
+  position: absolute;
+  top: 52%;
+  left: 79%;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border:2px solid white;
+  
+  }
+
+  .secondCaro .carousel-item3 .commonBtn1{
+    position: absolute;
+    top: 64%;
+    left: 63%;
+    background-color: transparent;
+    color: white;
+    border:2px solid white;
+    } 
+    
+    .secondCaro .carousel-item3 .commonBtn2{
+    position: absolute;
+    top: 64%;
+    left: 77%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border:2px solid white;
+    
+    }
+
+.secondCaro .carousel-item img {
+height: 320px !important;
+}
+
+
+
+/* ////////////com card// */
+
+.comCardDetail button{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  display: none;
+  width: 100%;
+
+}
+.comCardDetail button i{
+  color: white;
+}
+.comCardDetail button:hover{
+  display: block;  
+
+}
+.comCardMain{
+  background-color:#0862ea;
+  padding: 0;
+  margin: 0;
+  height: 240px;
+  width: 340px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+.comCardMain .col-md-4 {
+  padding-left: 0;
+ 
+
+}
+
+.cardView{
+  display: flex;
+  background-color: beige;
+  margin-bottom: 54px;
+ 
+  
+}
+
+.cardView .card{
+  border-radius: 5px;
+  padding: 32px 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 260px;
+  display: flex;
+  position: relative;
+ 
+}
+.cardView .card:hover{
+  background-color: blue;
+  color: white;
+  opacity: 100;
+
+}
+.cardView .card img{
+  width: 80%;
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+  left: 0;
+  justify-content: start;
+  text-align: start;
+}
+.cardView .card .px-1:hover{
+
+}
+.cardView .col-md-6 {
+width: 210px;
+margin-top: 20px;
+}
+.cardView .col-md-6 h4 {
+  font-size: 16px;
+
+}
+.cardImg{
+  width: 140px;
+  height: 200px;
+}
+.cardView .col-md-6 li {
+  font-size: 12px;
+
+}
+.cardView a {
+  width: 80%;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  opacity: 0;
+  border-radius: 100px;
+  bottom: 0;
+  position: absolute;
+  margin-top: 20px;
+
+
+  .cardView .fa-solid{
+    color: white;
+  }
+}
+.cardView a:hover{
+ opacity: 100;
+ border: 2px solid white;
+  color: white;
+}
+
+/* .cardView .row{
+
+
+  width: 336px;
+  position: relative;
+  left: 15px;
+ 
+} */
+.cardView .row:hover{
+  opacity: 100;
+
+}
+.cardView.col-md-4{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+/* //////////////////////careosel/////// */
+
+.caroContainer{
+  width: 100%;
+  height: 360px;
+}
+.caroContainer img{
+
+  height: 352px;
+}
+.carousel-indicators {
+ 
+  margin: 0px;
+ 
+}
+
+.carousel-indicators button {
+  
+  margin: 2px;
+  border: none;
+}
+
+.caroCont{
+  width: 44%;
+  /* background-color: aqua; */
+  left: 50%;
+  /* bottom: 110px; */
+  position: absolute;
+  justify-content: center;
+  top: 60px;
+}
+.caroCont   h2{
+  width: 80%;
+  color:#f9f605;
+  font-weight: bold;
+
+}
+.caroCont   h5{
+  color: white;
+  padding-top:20px;
+  font-weight: bolder;
+  line-height: 1.8;
+  font-size: 18px;
+
+}
+.caroCont button{
+  background-color: rgb(255, 255, 255);
+  padding: 10px 14px;
+  margin-top: 20px;
+ }
+
+.caroContainer .carousel-indicators button{
+  background-color:transparent;
+  border-bottom:2px solid #f9f605;
+}
+.caroContainer .carousel-indicators .btn-group{
+ /* border-bottom:3px solid rgb(229, 229, 229);
+ text-decoration: underline; */
+
+
+}
+.caroContainerBtn{
+  position: absolute;
+  top: 400px;
+  left: 1080px;
+  background-color: transparent;
+  
+}
+.caroContainerBtn button{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #f9f605;
 }

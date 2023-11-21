@@ -1,37 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Commercial Bank | Sri Lanka</title>
-        <link
-          rel="shortcut icon"
-          href="../assets/comBankFavIcon.png"
-          type="image/x-icon"
-        />
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-          crossorigin="anonymous"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-      </head>
-<body>
-    <div class="cardChoose">
-        <h3>Choose the Card that fits you</h3>
-    </div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Commercial Bank | Sri Lanka</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/comBankFavIcon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- ///////////////////// -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <style>
+.cardView{
+  display: flex;
+  background-color: beige;
+  
+}
+.cardView .card{
+  border-radius: 5px;
+  padding: 32px 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+}
+.cardView .card:hover{
+  background-color: blue;
+  color: white;
+  opacity: 100;
+
+}
+.cardView .card img{
+  width: 126%;
+}
+.cardView .card .px-1:hover{
+
+}
+.cardView .col-md-6 {
+  margin-left: 36px;
+  padding: 0;
+ 
+
+  
+}
+.cardView .col-md-6 h4 {
+  font-size: 16px;
+
+}
+.cardView .col-md-6 li {
+  font-size: 12px;
+
+}
+.cardView a {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  opacity: 0;
+  border-radius: 100px;
+  bottom: 0;
+  position: absolute;
+  margin-top: 20px;
+
+
+}
+.cardView a:hover{
+ opacity: 100;
+ border: 2px solid white;
+  color: white;
+}
+
+.cardView .row{
+
+  /* color: blueviolet;
+  background-color: aqua; */
+  width: 336px;
+  position: relative;
+  left: 15px;
+ 
+}
+.cardView .row:hover{
+  opacity: 100;
+
+}
+.col-md-4{
+  padding: 0;
+}
+</style> -->
+<style>
+/* Tabs*/
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: #007b5e;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+
+/* ///////////tabcontent */
+.tabContent1{
+  display: flex;
+  font-size: 14px;
+}
+  .tabContent1 ul{
+    width: 200px;
+
+  }
+  .tabContent1 li{
+    padding:2px;
+  }
+  .tabContent1 i{
+    padding-left: 20px;
+  }
+.tabContent1-left{
+  text-align: end;
+padding-right: 20px;
+}
+
+</style>
+  </head>
+  <body>
+
+
+
+<!-- Tabs -->
+<section class="  secondNavBar"> 
+
+<section id="tabs">
+	<div class="container">
+		<h6 class="section-title h1">Tabs</h6>
+		<div class="row">
+			<div class="col-xs-12 ">
+				<nav>
+					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Personal Banking </a>
+						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Business Banking</a>
+						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Non Resident Banking</a>
+						<a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">Services</a>
+					</div>
+				</nav>
+				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="tabContent1">
+              <!-- Left -->
+              <div class="tabContent1-left">
+                <ul class="links-2020-footer list-unstyled">
+              
+                  <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked About" data-event-label="Source: Footer" href="/about">Saving Acoounts<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Blog" data-event-label="Source: Footer" href="https://blog.teamtreehouse.com/">Deposits<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Careers" data-event-label="Source: Footer" href="/jobs">Current Accounts<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Community" data-event-label="Source: Footer" href="/community">Cards<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Stories" data-event-label="Source: Footer" href="/stories">Loans<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Treehouse Shop" data-event-label="Source: Footer" href="https://teespring.com/stores/teamtreehouse">Elite Banking</a></li>
+                  <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Contact" data-event-label="Source: Footer" href="/support">Anagi Women's <br> Banking</a></li>
+                  </ul>
+              </div>
+          
+              <!-- Middle-1 -->
+              <div class="tabContent1-middle1">
+
+                <div class="footer-catalogue">
+                  <div class="footer-catalogue-tech">
+                    <h4><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Techdegrees" data-event-label="Source: Footer" href="/techdegree">Main Accounts</a></h4>
+                    <ul class="links-2020-footer list-unstyled">
+                      <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Front End Web Development" data-event-label="Source: Footer" href="/techdegree/front-end-web-development">Regular Savings Account</a></li>
+                      <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Full Stack JavaScript" data-event-label="Source: Footer" href="/techdegree/full-stack-javascript">Super Saver Account</a></li>
+                      <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Python Development" data-event-label="Source: Footer" href="/techdegree/python-development">Power Bonus Account</a></li>
+                      <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Data Analysis" data-event-label="Source: Footer" href="/techdegree/data-analysis">Personal Foreign Currency Account</a></li>
+                      <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked UX Design" data-event-label="Source: Footer" href="/techdegree/ux-design">Achiever Salary Savings Account</a></li>
+                       </ul>
+                  </div>
+               
+                </div>
+              </div>
+                  <!-- Middle-2 -->
+                  <div class="tabContent1-middle2">
+
+                    <div class="footer-catalogue">
+                      <div class="footer-catalogue-tech">
+                        <h4><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Techdegrees" data-event-label="Source: Footer" href="/techdegree">Senior Citizens Accounts</a></h4>
+                        <ul class="links-2020-footer list-unstyled">
+                          <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Front End Web Development" data-event-label="Source: Footer" href="/techdegree/front-end-web-development">'Yasasa' Pensioners' Savings Account</a></li>
+                          <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Full Stack JavaScript" data-event-label="Source: Footer" href="/techdegree/full-stack-javascript">Udara Senior Citizens Account</a></li>
+                         
+                        </ul>
+                      </div>
+                   
+                    </div>
+                  </div>
+                      <!-- Middle-3         -->
+                      <div class="tabContent1-middle3">
+
+                        <div class="footer-catalogue">
+                          <div class="footer-catalogue-tech">
+                            <h4><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Techdegrees" data-event-label="Source: Footer" href="/techdegree">Minor and Youth Accounts</a></h4>
+                            <ul class="links-2020-footer list-unstyled">
+                              <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Front End Web Development" data-event-label="Source: Footer" href="/techdegree/front-end-web-development">Vibe Savings Account</a></li>
+                              <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Full Stack JavaScript" data-event-label="Source: Footer" href="/techdegree/full-stack-javascript">Dotcom Teen Account</a></li>
+                              <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Python Development" data-event-label="Source: Footer" href="/techdegree/python-development">Arunalu Children’s Savings Account</a></li>
+                              <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Data Analysis" data-event-label="Source: Footer" href="/techdegree/data-analysis">Foreign Currency Children’s Savings Account</a></li>
+                              <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked UX Design" data-event-label="Source: Footer" href="/techdegree/ux-design">Isuru Minors' Savings Plan</a></li>
+                               </ul>
+                          </div>
+                       
+                        </div>
+                      </div>
+          
+              <!-- Right -->
+              <div class="tabContent1right">
+                <h4>Women's Savings Accounts</h4>
+                <ul class="links-2020-footer list-unstyled">
+                        <li><a data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Plans" data-event-label="Source: Footer" href="/plans">Anagi Women's Savings Account</a></li>
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+					
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+</section>
+<!-- ./Tabs -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+     <script>
+      // function fab(){
+      //  const p= document.getElementById('fab-btn').style.display='none';
+      //   p.classList.toggle('hide');
+      // };
+      $(document).ready(function() {
+$(".btn-pref .btn").click(function () {
+    $(".btn-pref .btn").removeClass("btn-primary").addClass("btn-default");
+    // $(".tab").addClass("active"); // instead of this do the below 
+    $(this).removeClass("btn-default").addClass("btn-primary");   
+});
+});
+      
+    </script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0" nonce="5pI6aTUm"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!-- 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+
+
+
+    <!-- <button class="btn rounded-pill commonBtn">
+
+      Apply Now <i class="fa-solid fa-arrow-right-long little-arrow" ></i>
+       
+    </button> -->
+
+  </body>
 </html>
