@@ -12,27 +12,45 @@ a{
   background-color: blueviolet;
   height: auto;
 }
+.secondary-menu-container .col-md-2:hover .svgoutline {
 
-
-
-.secondary-menu-container svg {
-  width: 36px;
+  fill:#0862ea;
+ 
 }
+.secondary-menu-container .col-md-2:hover p{
+
+
+  color:#0862ea;
+}
+
+
+.secondary-menu-container .svgoutline {
+  width:36px;  
+  fill:#aab5be;
+}
+/* .secondary-menu-container .svgoutline:hover {
+  fill:#0862ea;
+} */
 
 .secondary-menu-container {
   background-color: rgba(244, 244, 244, 0.579);
-margin-top: 100px;
+
   
   
 }
 .secondary-menu-container .p-1{
-  margin: 36px;
+  margin: 42px 0;
   color: #5d6267;
 
 }
-.secondary-menu-container col:hover{
-  color: red;
-  stroke: #a91d1d;
+.secondary-menu-container a:hover{
+ color: #0862ea;
+  text-decoration: none;
+
+  
+}
+.secondary-menu-container p:hover{
+  color: #0862ea;
 }
 
 /* //////////////////////////////////// */
@@ -145,6 +163,14 @@ height: 300px;
   position: relative;
   left: 10%;
 }
+.caro-apps button{
+  transition: 0.8s all ease-in-out;
+}
+.caro-apps button:hover{
+  background-color: rgb(255, 227, 45);
+  color: black;  
+   transform: scale(0.9);
+}
 .comBankApp .mobileImage {
 
 }
@@ -199,6 +225,26 @@ padding-right: 50px;
   background-color: rgb(255, 227, 45);
   font-size: 14px;
 }
+.commonBtn1:hover{
+  background-color: rgb(255, 255, 255);
+  transform: scale(0.9);
+}
+.commonBtn2:hover{
+  transform: scale(0.95);
+  
+  background-color: rgb(255, 227, 45);
+}
+.commonBtn1, .commonBtn2{
+  transition: 0.8s all ease-in-out;
+} */
+/* /* .comB2nav .comBbtn button{
+  transform: scale(0.95);
+}
+.comB2nav .comBbtn button:hover{
+  transition: 0.8s all ease-in-out;
+
+} */
+
 
 .little-arrow {
   display: inline-block;
@@ -211,7 +257,14 @@ padding-right: 50px;
 .reUse button{
   background-color: rgb(255, 227, 45);
   padding: 14px 40px;
+  transition: 0.8s all ease-in-out;
   
+}
+.reUse button:hover{
+  transform: scale(0.9);
+  background-color: rgb(255, 227, 45);
+  color: black;
+
 }
 
 .youVideo{
@@ -249,6 +302,7 @@ max-width:100%;
 margin: auto;
 padding: 30px 40px 40px 30px;
 background: #082d57;
+
 }
 
 footer .content .link-boxes{
@@ -273,7 +327,7 @@ list-style: none;
 }
 .content .link-boxes .box li a{
 color: #fff;
-font-size: 14px;
+font-size: 12px;
 font-weight: 400;
 text-decoration: none;
 opacity: 0.8;
@@ -379,7 +433,9 @@ height: 130px;
  
 
 }
-.caroNews{
+.caroNews .cards-wrapper a{
+  list-style: none;
+  text-decoration: none;
 
 }
 .newslet{
@@ -411,6 +467,9 @@ height: 130px;
   font-size: 24px;
   font-weight: bold;
 }
+.reUse button{
+
+}
 
 .arrowBtn span{
   color: rgb(174, 179, 179);
@@ -421,6 +480,8 @@ height: 130px;
 }
 .cards-wrapper .card .card-text{
   font-size: 14px;
+
+
 
 }
 .cards-wrapper .card .card-title{
@@ -506,7 +567,8 @@ hr .classhr{
 	border: 1px solid #0862ea;	
   position: fixed;
   right: 20px;
-  top: 100px;
+  top: 120px;
+  z-index: 3;
 	}
   .pulse-button i{
     color: #0862ea;
@@ -558,7 +620,18 @@ left: 100px;
   background-color: aliceblue;
   width: 240px;
   height: 48px;
+  
 
+
+  
+}
+.centerDD  li a{
+  text-decoration: none;
+ list-style-type: none;
+ padding: 10px;
+}
+.centerDD  a:hover{
+  color: #0862ea;
 }
 .whiteSheet{
   width: 240px;
@@ -680,25 +753,26 @@ height: 0;
 width: 0;
 border-left: 8px solid transparent;
 border-right: 8px solid transparent;
-border-top: 8px solid   #1d70a9;
+border-top: 8px solid    #1d70a9;
 margin: 0;
 
 }
 
 
-.btn-group button{
+
+.btn-group2 button{
   border-radius: 10px;
 
  
 }
-.btn-group svg{
+/* .btn-group2 svg{
 color:  #1d70a9;
 stroke-width:1px;
 width: 54px;
 
-}
+} */
 
-.btn-group button:hover{
+.btn-group2 button:hover{
 color: white;
 background-color:  #1d70a9;
 border-radius: 10px;
@@ -750,7 +824,7 @@ padding-top: 40px;
 #saving{
  margin-left: 0px;
 }
-.btn-group button:focus{
+.btn-group2 button:focus{
   outline: none !important;
  
 
@@ -765,7 +839,7 @@ background-color:  #a91d1d;
 /* ////////////////// second carousel*/
 
 .secondCaro .carousel-indicators{
-  margin: 40px 200px 0 -320px;
+  margin: 40px 100px 0 -430px;
 }
 .secondCaro .carousel-indicators button{
 width: 20px;
@@ -837,7 +911,8 @@ border:2px solid white;
     }
 
 .secondCaro .carousel-item img {
-height: 320px !important;
+height: 310px !important;
+width: 100%;
 }
 
 
@@ -878,10 +953,17 @@ height: 320px !important;
 
 .cardView{
   display: flex;
-  background-color: beige;
+  background-color: rgb(230, 230, 230);
   margin-bottom: 54px;
  
   
+}
+.sectionCard{
+  background-color: rgb(230, 230, 230);
+}
+.sectionCard h3{
+  font-size: 36px;
+  color: black;
 }
 
 .cardView .card{
@@ -893,11 +975,16 @@ height: 320px !important;
   position: relative;
  
 }
-.cardView .card:hover{
+.cardView .card:hover a{
   background-color: blue;
   color: white;
   opacity: 100;
 
+}
+.cardView .card:hover{
+  background-color: blue;
+  color: white;
+  opacity: 100;
 }
 .cardView .card img{
   width: 80%;
@@ -971,11 +1058,13 @@ margin-top: 20px;
 
 .caroContainer{
   width: 100%;
-  height: 360px;
+   margin: 0;
+ 
 }
 .caroContainer img{
 
-  height: 352px;
+  height: 100hv;
+  width: 100%;
 }
 .carousel-indicators {
  
@@ -1039,4 +1128,282 @@ margin-top: 20px;
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #f9f605;
+}
+
+/* bottom Nab Bar//////////// */
+
+
+.navbar {
+  /* overflow: hidden; */
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border-bottom: 2px solid rgb(245, 244, 244);
+  
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown1, .dropdown2, .dropdown3, .dropdown4{
+  float: left;
+  overflow: hidden;
+  z-index: 2;
+
+
+ 
+}
+
+.dropdown1 .dropbtn1,.dropdown2 .dropbtn2,.dropdown3 .dropbtn3,.dropdown4 .dropbtn4 {
+  font-size: 16px;  
+  border: 1px solid transparent;
+  /* outline: none; */
+  color: black;
+  padding: 0;
+  background-color: inherit;
+  font-weight: bold;
+  margin:0;
+}
+.dropdown1 .dropbtn1:hover,.dropdown2 .dropbtn2:hover,.dropdown3 .dropbtn3:hover,.dropdown4 .dropbtn4:hover {
+  border-bottom:  3px solid rgb(255, 234, 0);
+}
+
+/* .dropdown1:hover .dropdown-content1,.dropdown2:hover .dropdown-content2,.dropdown3:hover .dropdown-content3,.dropdown4:hover .dropdown-content4 {
+  border-top: 3px solid rgb(255, 234, 0);
+} */
+
+
+.dropdown-content1,.dropdown-content2,.dropdown-content3,.dropdown-content4 {
+  display: none;
+  position: absolute;  
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top:48px;
+}
+
+
+
+.dropdown-content1 .tab,.dropdown-content2 .tab,.dropdown-content3 .tab,.dropdown-content4 .tab{
+  width: 200px;
+  padding-top: 20px;
+}
+
+.dropdown-content1 .tab button,.dropdown-content2 .tab button,.dropdown-content3 .tab button,.dropdown-content4 .tab button {
+  position: relative;
+  text-align: right;
+  width: 180px;
+  
+}
+
+.dropdown-content1 .tab button:hover,.dropdown-content2 .tab button:hover,.dropdown-content3 .tab button:hover,.dropdown-content4 .tab button:hover{
+  
+  color: rgb(0, 128, 255);
+}
+
+
+
+.dropdown1:hover .dropdown-content1,.dropdown2:hover .dropdown-content2,.dropdown3:hover .dropdown-content3,.dropdown4:hover .dropdown-content4 {
+  display: block;
+}
+
+
+.column {
+  float: right;
+  width: 218px;
+  padding: 8px;
+  /* background-color: rgb(247, 247, 247); */
+  height: 400px;
+  border: none;
+  margin-top: 10px;
+ 
+}
+
+.column a {
+  float: left;
+  color: rgb(73, 73, 73);
+  padding: 4px 0;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 14px;
+}
+
+.column a:hover {
+
+  color: rgb(0, 106, 255);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* //////////////sidebar */
+
+/* Style the tab */
+.tab {
+  float: left;
+  margin-top: 10px;
+  width: 0px;
+  padding-top: 8px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(248, 248, 248);
+  display: block;
+ 
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: rgb(0, 0, 0);
+  padding: 10px 8px;
+ 
+border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+ 
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ffffff;
+}
+
+/* Create an active/current "tab button" class */
+.tab button {
+  background-color: #ffffff;
+}
+
+
+.comB2nav{
+  display: flex;
+}
+.comB2nav .comBbtn button{
+  background-color:  rgba(240, 47, 47, 0.998);
+  border-radius: 50px;
+  border: none;
+  padding: 6px 20px;
+  color: white;
+  margin-top: 2px;
+}
+
+.comBImg img{
+  width: 220px;
+  padding-left: 20px;
+}
+.dropdown-content4 .tabcontent4{
+  margin:12px 0 0 100px;
+
+}
+.tabcontent4 .row{
+  width: 1160px;
+  background-color:  rgb(247, 247, 247);
+}
+
+
+
+
+/* ////////////Nav bar-2/////////// */
+#navbarText{
+  display: flex;
+}
+#navbarText li a{
+  font-size: 10px;
+}
+#navbarText .btn-group img{
+  width: 28px;
+ 
+}
+.dropdown-menu-end{
+  border-radius: 10px;
+  border: none;
+  
+ 
+}
+.dropdown-menu-end img{
+ 
+  width: 26px;
+  margin: 8px 18px 12px 2px;
+
+}
+.dropdown-menu-end li svg{
+ margin-left: 68px;
+}
+
+.Afill{
+  background-color: rgb(18, 18, 18);
+  color: white;
+}
+.me-between button{
+margin: 9px 4px;
+font-size: 8px;
+
+
+
+
+}
+.navMid{
+  padding-left: 50px;
+}
+.navMid li{
+ 
+margin-left: 16px;
+text-align: end;
+}
+.btn-group1 button img{
+width: 22px;
+
+}
+.btn-group1{
+  margin-top: 6px;
+  border: none;
+  background-color: transparent;
+}
+.tabcontent .row, .tabcontent2 .row, .tabcontent3 .row{
+ background-color:  rgb(247, 247, 247);
+ margin-top: 10px;
+ width: 1115
+ px;
+
+}
+
+/* //////////navBar-1///////////// */
+.nav_1
+{
+margin-bottom: 0;
+}
+.nav-2{
+margin-bottom: 0;
+padding-bottom: 0px;
+padding: 0;
+
+align-content: center;
+position: absolute;
+
 }
